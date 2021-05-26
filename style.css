@@ -439,6 +439,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color:#F3976C!important;
 }
 
 .mg-lg {
@@ -661,6 +662,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color:#F3976C!important;
 }
 
 .hero-bloc-text-sub {
@@ -693,7 +695,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -758,6 +760,16 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
+.italic 
+{
+    font-style: italic;
+}
+
+.navbar-nav li:hover
+{
+    background-color:#F3976C;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -781,12 +793,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .ltc-white {
