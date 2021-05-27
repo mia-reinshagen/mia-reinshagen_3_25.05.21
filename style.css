@@ -838,6 +838,17 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.partenaires
+{
+    margin-left: 480px;
+    margin-right: 300px;
+}
+
+.partenaires ul 
+{
+    padding-left:10px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
