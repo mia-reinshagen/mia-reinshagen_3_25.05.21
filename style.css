@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -362,6 +362,10 @@ a:hover {
     z-index: 2;
 }
 
+.social_media .social
+{
+color: grey;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -704,8 +708,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
-}
+    margin: auto auto auto auto;}
 
 h2 {
     font-size: 22px;
@@ -840,14 +843,38 @@ h4 {
 
 .partenaires
 {
-    margin-left: 480px;
-    margin-right: 300px;
+    text-align: center;
 }
 
 .partenaires ul 
 {
     padding-left:10px;
+    color:black;
+    list-style-type: none;
 }
+
+.partenaires 
+{
+    color:#333333;
+}
+
+.site-navigation a
+ {
+     display: flex;
+     text-decoration: none;
+     padding-left: 30px;
+ }
+
+ .site-navigation 
+ {
+    display: flex;
+    flex-direction: row;
+    margin-right: 300px;
+    list-style-type: none;
+ }
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -861,6 +888,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+   
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -870,6 +898,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -941,6 +970,7 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+    
     }
     .nav > li {
         margin-top: 0;
@@ -1045,6 +1075,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
